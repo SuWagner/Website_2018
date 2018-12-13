@@ -12,9 +12,8 @@
     display:block;
     margin-left: auto;
     margin-top: -0.5em;
-    text-shadow: 2px 2px #232323;
-
 }
+
 
 body{
     margin: 0;
@@ -52,12 +51,15 @@ p{
     line-height: 1.5em;
 }
 
+.home-hero div .title{
+  text-shadow: 2px 2px #232323;
+}
+
 .title{
     font-size: 2.5rem;
     margin-bottom: 1.5em;
     font-weight: 900;
     margin-top:1em;
-    text-shadow: 2px 2px #232323;
 
 }
 .title span{
@@ -76,7 +78,7 @@ p{
 
 .first-letter{
     font-size: 1.6em;
-    color: #00ff6c;
+    color: #FF8F00;
 }
 
 .familyname{
@@ -179,12 +181,12 @@ p{
 }
 
 .button-accent{
-    color: #00FF6c;
+    color: #FF8F00;
     background: rgba(0,0,0,0.3)
 }
 .button-accent:hover,
 .button-accent:focus{
-    background: #00FF6c;
+    background: #FF8F00;
     color:#232323;
 
 }
@@ -196,7 +198,7 @@ p{
 .button-dark:hover,
 .button-dark:focus{
     background: #232323;
-    color:#00ff6c;
+    color:#FF8F00;
 
 }
 
@@ -223,7 +225,6 @@ nav ul{
 nav li{
     display: inline-block;
     margin: 1em;
-    text-shadow: 2px 2px #232323;
 }
 
 nav a{
@@ -276,13 +277,13 @@ nav a:focus{
     padding: 3.8rem;
     width: 100vw;
     margin-left: -2.6%;
-    outline: 2px solid #00FF6c;
+    outline: 2px solid #FF8F00;
     outline-offset: -2.5em;
     color: #FFF;
     position: relative;
 }
 .home-about-textbox h1{
-    color: #00FF6c;
+    color: #FF8F00;
     position: absolute;
     top: .6em;
     left: 50%;
@@ -312,6 +313,8 @@ nav a:focus{
     .home-about{
         background: url(../img/woman.jpg) no-repeat;
         padding-bottom: 10em;
+        background-size: 137%;
+
     }
 
     .home-about-textbox{
@@ -392,7 +395,7 @@ nav a:focus{
 /*cta
 ****************/
 .cta{
-    background-color: #00FF6c;
+    background-color: #C1D7DE;
     padding: 5em 0;
 }
 
