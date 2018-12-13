@@ -12,6 +12,8 @@
     display:block;
     margin-left: auto;
     margin-top: -0.5em;
+    text-shadow: 2px 2px #232323;
+
 }
 
 body{
@@ -31,7 +33,7 @@ img{
     margin: 0 auto;
 }
 
-.clearfix::after, 
+.clearfix::after,
 section::after,
 footer::after{
     content:'';
@@ -55,6 +57,8 @@ p{
     margin-bottom: 1.5em;
     font-weight: 900;
     margin-top:1em;
+    text-shadow: 2px 2px #232323;
+
 }
 .title span{
     font-weight: 300;
@@ -219,6 +223,7 @@ nav ul{
 nav li{
     display: inline-block;
     margin: 1em;
+    text-shadow: 2px 2px #232323;
 }
 
 nav a{
@@ -232,7 +237,7 @@ nav a{
 
 nav a:hover,
 nav a:focus{
-    color: #DDD;
+    color: #C0C0C0 ;
 }
 
 @media (min-width: 60rem) {
@@ -314,11 +319,11 @@ nav a:focus{
         padding: 5em;
         outline-offset: -3em;
         margin-left: -2.6%;
-        top: -4em; 
+        top: -4em;
         text-align: left;
         box-shadow: 0 0 4em 0 rgba(0,0,0,.3);
     }
-    
+
     .home-about-textbox h1{
         top: .5em;
         left: 3.5rem;
@@ -326,7 +331,7 @@ nav a:focus{
     }
 
 
-  
+
 
 }
 
@@ -367,13 +372,13 @@ nav a:focus{
         width: 50%;
         float: left;
     }
-}   
+}
 
 @media(min-width: 60rem){
     .port-item{
         width: 33.33333%;
         overflow: hidden;
-       
+
     }
     .port-desc{
         transform: translateY(150%);
